@@ -20,13 +20,15 @@ Next you have to create the categories. To do so run
 ## Run the app ##
 
 To start the app simply run
+	Install Vagrant.
+
+	Once Vagrant is installed, cd to vagrant/ and run vagrant up && vagrant ssh. In the virtual machine, cd to
+	/vagrant/pokemon and run python project.py. The item catalog can then be accessed at localhost:8080.
 	
-	python project.py
+		python project.py
 
 ## Remarks ##
-- The app uses nonces to prevent cross-site request forgeries (CSFR) when creating, updating and deleting items.
-- The app offers two API endpoints:
+- The app offers two JSON endpoints:
 	- User JSON: /trainers/JSON
 	- User-Pokemon JSON: /trainers/\<int:user_id\>/pokemon/JSON
-- The app uses a (slightly modified) **dashboard.css** stylesheet from Bootstrap's [Dashboard sample page](http://getbootstrap.com/examples/dashboard/).
-- The app is not optimized for small devices (smartphones etc.).
+
