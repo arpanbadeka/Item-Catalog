@@ -15,7 +15,7 @@ These dependencies must be installed before you can run the app. The easiest way
 
 Next you have to create the categories. To do so run
 
-	python database_setupy.py
+	python database_setup.py
 
 ## Run the app ##
 
@@ -26,7 +26,7 @@ To start the app simply run
 ## Remarks ##
 - The app uses nonces to prevent cross-site request forgeries (CSFR) when creating, updating and deleting items.
 - The app offers two API endpoints:
-	- **JSON:** /catalog.json
-	- **XML:** /catalog.xml
+	- User JSON: /trainers/JSON
+	- User-Pokemon JSON: /trainers/<int:user_id>/pokemon/JSON
 - The app uses a (slightly modified) **dashboard.css** stylesheet from Bootstrap's [Dashboard sample page](http://getbootstrap.com/examples/dashboard/).
 - The app is not optimized for small devices (smartphones etc.).
