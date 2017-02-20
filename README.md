@@ -27,6 +27,6 @@ To start the app simply run
 - The app uses nonces to prevent cross-site request forgeries (CSFR) when creating, updating and deleting items.
 - The app offers two API endpoints:
 	- User JSON: /trainers/JSON
-	- User-Pokemon JSON: /trainers/##<int:user_id>##/pokemon/JSON
+	- User-Pokemon JSON: /trainers/\<int:user_id\>/pokemon/JSON
 - The app uses a (slightly modified) **dashboard.css** stylesheet from Bootstrap's [Dashboard sample page](http://getbootstrap.com/examples/dashboard/).
 - The app is not optimized for small devices (smartphones etc.).
