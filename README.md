@@ -11,7 +11,7 @@ This app uses
 These dependencies must be installed before you can run the app. The easiest way to do so is by using [pip](https://pypi.python.org/pypi/pip). Simply run the following commands:
 
     pip install Flask
-	  pip install SQLAlchemy
+    pip install SQLAlchemy
 
 Next you have to create the categories. To do so run
 
